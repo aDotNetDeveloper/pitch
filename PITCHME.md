@@ -2,7 +2,7 @@
 
 ---?color=#000000
 <br>
-## The do's & dont's of multilingual with Umbraco
+## The do's & dont's of multilingual with a CMS
 <br>
 +++
 #?
