@@ -1,13 +1,13 @@
 ---?image=/img/background.png&size=cover&opacity=20
 
----
+---?color=#000000
 ## @color[orange](The do's & dont's of)
 ### @color[orange](A multilingual site using a CMS)
 
 @ul
  - @fa[fa-check-square fa-orange](Structuring your content for more than one language)
  - @fa[fa-check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
- - @fa[fa-check-square fa-orange](Everything in another language is optional)
+ - @fa[thumbs-up](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
@@ -63,7 +63,7 @@ Use of dicionary for every instance of text
 }
 ```
 
-+++
++++?color=#000000
 ### @color[orange](In Code)
 
 Use of dicionary for every instance of text
@@ -82,5 +82,3 @@ Use of dicionary for every instance of text
 
 +++?color=#000000
 ## @color[red](The End)
-
-
