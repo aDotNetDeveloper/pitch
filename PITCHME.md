@@ -4,18 +4,18 @@
 ## @color[orange](A multilingual site using a CMS)
 
 @ul
- - @fa[check-square fa-orange](Structuring your content for more than one language)
- - @fa[check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
- - @fa[check-square fa-orange](Everything in another language is optional)
+ - Structuring your content for more than one language
+ - Ensuring adding another language wont kill your team or their productivity
+ - Everything in another language is optional
 @ulend
 
 +++?color=#000000
 ## @color[#DC143C](What this isn't about, is)
 
 @ul
- - @fa[times-square fa-red](Google Translation Services & APIs)
- - @fa[times-square fa-red](Amazon Translate)
- - @fa[times-square fa-red](In browser translation)
+ - Google Translation Services & APIs
+ - Amazon Translate
+ - In browser translation
 @ulend
 
 ---?color=#000000
@@ -23,17 +23,17 @@
 
 +++?color=#000000
 ### @color[#DC143C](Most CMS implementions are like this)
-@quote[vertical content replication suxs]
----?image=img/dual-language-site1.png&size=5em&transition=none
 
----?image=img/dual-language-site2.pngtransition=none
+---?image=/img/dual-language-site2.png
 
----?image=img/dual-language-site3.png&transition=none
+---?image=/img/dual-language-site2.png
+
+---?image=/img/dual-language-site3.png&
 
 +++?color=#000000
 ### @color[orange]Instead use horizontal content replication
 
-![Logo](img/dual-language-site.png)
+![Logo](/img/dual-language-site.png)
 
     Which means what?
 
@@ -65,7 +65,7 @@ Use of dicionary for every instance of text
 +++?color=#000000
 ### @color[orange](In Code)
 
-Use of dicionary for every instance of text
+Use of dicionary for every instance of output
 ```
 <ul class="Header-nav list-inline">
     @foreach (var menuItem in menuItems.Where(m => m.Visible))
