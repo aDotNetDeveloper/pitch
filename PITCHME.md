@@ -24,7 +24,7 @@
 +++?color=#000000
 ### @color[#DC143C](Most CMS implementions are like this)
 @quote[vertical content replication suxs]
----?image=img/dual-language-site1.png&size=50em&transition=none
+---?image=img/dual-language-site1.png&size=5em&transition=none
 
 ---?image=img/dual-language-site2.pngtransition=none
 
