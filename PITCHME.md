@@ -1,30 +1,30 @@
 ---?image=/img/background.png&size=cover&opacity=20
 
 ---?color=#000000
-## The do's & dont's of 
-### A multilingual site using a CMS
+## @color[orange](The do's & dont's of 
+### A multilingual site using a CMS)
 
 @ul
- - Structuring your content for more than one language
- - Ensuring adding another language wont kill your team
- - Everything in another language is optional
+ - @fa[fa-check-square orange](Structuring your content for more than one language)
+ - @fa[fa-check-square orange](Ensuring adding another language wont kill your team or their productivity)
+ - @fa[fa-check-square orange](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
-## What this isn't about is
+## @color[#DC143C](What this isn't about, is)
 
 @ul
- - Google Translation Services & APIs
- - Amazon Translate
- - In browser translation
+ - @fa[fa-times-square #DC143C](Google Translation Services & APIs)
+ - @fa[fa-times-square #DC143C](Amazon Translate)
+ - @fa[fa-times-square #DC143C](In browser translation)
 @ulend
 
----
-## Multilingual Content
+---?color=#000000
+## @color[orange](Multilingual Content)
 
 +++?color=#000000
-### Most CMS implementions are like this
-
+### @color[#DC143C]Most CMS implementions are like this
+@quote[vertical content replication suxs]
 ---?image=img/dual-language-site1.png&size=contain&transition=none
 
 ---?image=img/dual-language-site2.png&size=contain&transition=none
@@ -32,14 +32,17 @@
 ---?image=img/dual-language-site3.png&size=contain&transition=none
 
 +++?color=#000000
-### Instead horizontal content replication
+### @color[orange]Instead use horizontal content replication
 
 ![Logo](img/dual-language-site.png)
 
     Which means what?
 
++++?color=#000000
+### @color[yellow]Show & Tell
+
 ---?color=#000000
-## Multilingual Text
+## @color[orange](Multilingual Text)
 
 +++?color=#000000
 ### Dictionary Based Content
@@ -48,15 +51,13 @@
 
 +++?color=#000000
 ### In Code
-Use of dicionary for in code every piece of text
+Use of dicionary for every instance of text
 ```
 @inherits UmbracoViewPage<ContentModels.Page>
 @{
-    var close = Model.GetDictionaryValue("close", formatOption: ContentModels.DictionaryFormatOption.ProperCase);
-
-    var telephone = Model.GetDictionaryValue("telephone", formatOption: ContentModels.DictionaryFormatOption.ProperCase);
-
-    var search = Model.GetDictionaryValue("search", formatOption: ContentModels.DictionaryFormatOption.ProperCase);
+    var close = Model.GetDictionaryValue("close");
+    var telephone = Model.GetDictionaryValue("telephone");
+    var search = Model.GetDictionaryValue("search");
 }
 
     <ul class="Header-nav list-inline">
@@ -64,12 +65,13 @@ Use of dicionary for in code every piece of text
         {
             var menuName = Model.GetDictionaryValue(menuItem.Name);
 
-            <li @(menuItem.Active ? "class=Header-link active" : "class=Header-link")><a title="@menuName" href="@menuItem.Url">@menuName</a></li>
+            <li "class=Header-link")>
+            <a title="@menuName" href="@menuItem.Url">@menuName</a>
+            </li>
         }
     </ul>
-
 ```
-@[1-8] @[9-17]
+@[1-6] @[7-17]
 
 +++?color=#000000
 ## The End
