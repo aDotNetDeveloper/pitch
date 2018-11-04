@@ -23,7 +23,7 @@
 ## @color[orange](Multilingual Content)
 
 +++?color=#000000
-### @color[#DC143C]Most CMS implementions are like this
+### @color[#DC143C](Most CMS implementions are like this)
 @quote[vertical content replication suxs]
 ---?image=img/dual-language-site1.png&size=contain&transition=none
 
