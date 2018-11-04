@@ -5,9 +5,9 @@
 ### @color[orange](A multilingual site using a CMS)
 
 @ul
- @fa[fa-check-square fa-orange](Structuring your content for more than one language)
- @fa[fa-check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
- ---@fa[thumbs-up](Everything in another language is optional)
+ - @fa[check-square fa-orange](Structuring your content for more than one language)
+ - @fa[check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
+ - @fa[check-square orange](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
@@ -25,7 +25,7 @@
 +++?color=#000000
 ### @color[#DC143C](Most CMS implementions are like this)
 @quote[vertical content replication suxs]
----?image=img/dual-language-site1.png&transition=none
+---?image=img/dual-language-site1.png&size=2.5em&transition=none
 
 ---?image=img/dual-language-site2.pngtransition=none
 
@@ -47,7 +47,7 @@
 +++?color=#000000
 ### @color[orange](Dictionary Based Content)
 
-![Logo](img/dictionary.png)
+![Logo](img/language.png)
 
 
 +++?color=#000000
