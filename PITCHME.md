@@ -21,10 +21,16 @@
 ---?color=#000000
 ## @color[orange](Multilingual Content)
 
+@ul
+ - Headers, Footers, Menus
+ - Number & Date formats, reading direction
+ - Text in images
+@ulend
+
 +++?color=#000000
 ### @color[#DC143C](Most CMS implementions are like this)
 
----?image=/img/dual-language-site2.png
+---?image=/img/dual-language-site1.png
 
 ---?image=/img/dual-language-site2.png
 
