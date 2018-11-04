@@ -1,5 +1,5 @@
 /* Enable List Bullet Icons */
-.reveal ul { list-style: none; }
+ul { list-style: none; }
 
 /* Custom Icons Colors */
 .fa-orange { color : orange; }
