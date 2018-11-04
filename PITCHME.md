@@ -5,9 +5,9 @@
 ### @color[orange](A multilingual site using a CMS)
 
 @ul
- - @fa[fa-check-square fa-orange](Structuring your content for more than one language)
- - @fa[fa-check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
- @fa[thumbs-up](Everything in another language is optional)
+ @fa[fa-check-square fa-orange](Structuring your content for more than one language)
+ @fa[fa-check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
+ ---@fa[thumbs-up](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
