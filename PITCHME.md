@@ -23,7 +23,8 @@
 
 @ul
  - Headers, Footers, Menus
- - Number & Date formats, reading direction
+ - Number & Date formats
+ - Reading direction
  - Text in images
 @ulend
 
