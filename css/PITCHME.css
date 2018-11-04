@@ -1,0 +1,6 @@
+/* Enable List Bullet Icons */
+.reveal ul { list-style: none; }
+
+/* Custom Icons Colors */
+.fa-orange { color : orange; }
+.fa-red { color : #DC143C; }

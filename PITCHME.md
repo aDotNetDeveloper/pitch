@@ -1,22 +1,22 @@
 ---?image=/img/background.png&size=cover&opacity=20
 
 ---?color=#000000
-## @color[orange](The do's & dont's of 
-### A multilingual site using a CMS)
+## @color[orange](The do's & dont's of)
+### @color[orange]A multilingual site using a CMS)
 
 @ul
- - @fa[fa-check-square orange](Structuring your content for more than one language)
- - @fa[fa-check-square orange](Ensuring adding another language wont kill your team or their productivity)
- - @fa[fa-check-square orange](Everything in another language is optional)
+ - @fa[fa-check-square fa-orange](Structuring your content for more than one language)
+ - @fa[fa-check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
+ - @fa[fa-check-square fa-orange](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
 ## @color[#DC143C](What this isn't about, is)
 
 @ul
- - @fa[fa-times-square #DC143C](Google Translation Services & APIs)
- - @fa[fa-times-square #DC143C](Amazon Translate)
- - @fa[fa-times-square #DC143C](In browser translation)
+ - @fa[fa-times-square fa-red](Google Translation Services & APIs)
+ - @fa[fa-times-square fa-red](Amazon Translate)
+ - @fa[fa-times-square fa-red](In browser translation)
 @ulend
 
 ---?color=#000000
