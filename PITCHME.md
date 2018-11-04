@@ -1,22 +1,21 @@
 ---?image=/img/background.png&size=cover&opacity=20
 
 ---?color=#000000
-## @color[orange](The do's & dont's of)
-### @color[orange](A multilingual site using a CMS)
+## @color[orange](A multilingual site using a CMS)
 
 @ul
  - @fa[check-square fa-orange](Structuring your content for more than one language)
  - @fa[check-square fa-orange](Ensuring adding another language wont kill your team or their productivity)
- - @fa[check-square orange](Everything in another language is optional)
+ - @fa[check-square fa-orange](Everything in another language is optional)
 @ulend
 
 +++?color=#000000
 ## @color[#DC143C](What this isn't about, is)
 
 @ul
- - @fa[fa-times-square fa-red](Google Translation Services & APIs)
- - @fa[fa-times-square fa-red](Amazon Translate)
- - @fa[fa-times-square fa-red](In browser translation)
+ - @fa[times-square fa-red](Google Translation Services & APIs)
+ - @fa[times-square fa-red](Amazon Translate)
+ - @fa[times-square fa-red](In browser translation)
 @ulend
 
 ---?color=#000000
@@ -25,7 +24,7 @@
 +++?color=#000000
 ### @color[#DC143C](Most CMS implementions are like this)
 @quote[vertical content replication suxs]
----?image=img/dual-language-site1.png&size=2.5em&transition=none
+---?image=img/dual-language-site1.png&size=50em&transition=none
 
 ---?image=img/dual-language-site2.pngtransition=none
 
